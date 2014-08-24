@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723D80BD19AA4E51006422A6 /* TheDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 723D80BC19AA4E51006422A6 /* TheDevice.m */; };
+		72414FFE19A95B3E00E16DD6 /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72414FFB19A95B3E00E16DD6 /* DeviceDetailViewController.m */; };
+		72414FFF19A95B3E00E16DD6 /* DevicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72414FFD19A95B3E00E16DD6 /* DevicesTableViewController.m */; };
+		7241500819A95BA200E16DD6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241500219A95BA200E16DD6 /* MBProgressHUD.m */; };
+		7241500919A95BA200E16DD6 /* AccelerometerFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241500519A95BA200E16DD6 /* AccelerometerFilter.m */; };
+		7241500A19A95BA200E16DD6 /* APLGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241500719A95BA200E16DD6 /* APLGraphView.m */; };
+		7241500D19A95CAA00E16DD6 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241500C19A95CAA00E16DD6 /* StartViewController.m */; };
+		7241501019A969CE00E16DD6 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241500F19A969CE00E16DD6 /* DrawingView.m */; };
+		7241501319A969F000E16DD6 /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7241501219A969F000E16DD6 /* DrawingViewController.m */; };
+		72BA108A19A9325600E3CAF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BA108919A9325600E3CAF2 /* Foundation.framework */; };
+		72BA108C19A9325600E3CAF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BA108B19A9325600E3CAF2 /* CoreGraphics.framework */; };
+		72BA108E19A9325600E3CAF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BA108D19A9325600E3CAF2 /* UIKit.framework */; };
+		72BA109419A9325600E3CAF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72BA109219A9325600E3CAF2 /* InfoPlist.strings */; };
+		72BA109619A9325600E3CAF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA109519A9325600E3CAF2 /* main.m */; };
+		72BA109A19A9325600E3CAF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA109919A9325600E3CAF2 /* AppDelegate.m */; };
+		72BA109D19A9325600E3CAF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BA109B19A9325600E3CAF2 /* Main.storyboard */; };
+		72BA10A519A9325600E3CAF2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72BA10A419A9325600E3CAF2 /* Images.xcassets */; };
+		72BA10AC19A9325600E3CAF2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BA10AB19A9325600E3CAF2 /* XCTest.framework */; };
+		72BA10AD19A9325600E3CAF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BA108919A9325600E3CAF2 /* Foundation.framework */; };
+		72BA10AE19A9325600E3CAF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BA108D19A9325600E3CAF2 /* UIKit.framework */; };
+		72BA10B619A9325600E3CAF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72BA10B419A9325600E3CAF2 /* InfoPlist.strings */; };
+		72BA10B819A9325600E3CAF2 /* TeenyWearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BA10B719A9325600E3CAF2 /* TeenyWearTests.m */; };
+		72BA10C219A932D700E3CAF2 /* MetaWear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BA10C119A932D700E3CAF2 /* MetaWear.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72BA10AF19A9325600E3CAF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72BA107E19A9325600E3CAF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72BA108519A9325600E3CAF2;
+			remoteInfo = TeenyWear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		723D80BB19AA4E51006422A6 /* TheDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheDevice.h; sourceTree = "<group>"; };
+		723D80BC19AA4E51006422A6 /* TheDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheDevice.m; sourceTree = "<group>"; };
+		72414FFA19A95B3E00E16DD6 /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
+		72414FFB19A95B3E00E16DD6 /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
+		72414FFC19A95B3E00E16DD6 /* DevicesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevicesTableViewController.h; sourceTree = "<group>"; };
+		72414FFD19A95B3E00E16DD6 /* DevicesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevicesTableViewController.m; sourceTree = "<group>"; };
+		7241500119A95BA200E16DD6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7241500219A95BA200E16DD6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7241500419A95BA200E16DD6 /* AccelerometerFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerFilter.h; sourceTree = "<group>"; };
+		7241500519A95BA200E16DD6 /* AccelerometerFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerFilter.m; sourceTree = "<group>"; };
+		7241500619A95BA200E16DD6 /* APLGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLGraphView.h; sourceTree = "<group>"; };
+		7241500719A95BA200E16DD6 /* APLGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLGraphView.m; sourceTree = "<group>"; };
+		7241500B19A95CAA00E16DD6 /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		7241500C19A95CAA00E16DD6 /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		7241500E19A969CE00E16DD6 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		7241500F19A969CE00E16DD6 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		7241501119A969F000E16DD6 /* DrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
+		7241501219A969F000E16DD6 /* DrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		72BA108619A9325600E3CAF2 /* TeenyWear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeenyWear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BA108919A9325600E3CAF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72BA108B19A9325600E3CAF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72BA108D19A9325600E3CAF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72BA109119A9325600E3CAF2 /* TeenyWear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeenyWear-Info.plist"; sourceTree = "<group>"; };
+		72BA109319A9325600E3CAF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72BA109519A9325600E3CAF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72BA109719A9325600E3CAF2 /* TeenyWear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TeenyWear-Prefix.pch"; sourceTree = "<group>"; };
+		72BA109819A9325600E3CAF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		72BA109919A9325600E3CAF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		72BA109C19A9325600E3CAF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72BA10A419A9325600E3CAF2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72BA10AA19A9325600E3CAF2 /* TeenyWearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeenyWearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BA10AB19A9325600E3CAF2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		72BA10B319A9325600E3CAF2 /* TeenyWearTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TeenyWearTests-Info.plist"; sourceTree = "<group>"; };
+		72BA10B519A9325600E3CAF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72BA10B719A9325600E3CAF2 /* TeenyWearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeenyWearTests.m; sourceTree = "<group>"; };
+		72BA10C119A932D700E3CAF2 /* MetaWear.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MetaWear.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72BA108319A9325600E3CAF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BA10C219A932D700E3CAF2 /* MetaWear.framework in Frameworks */,
+				72BA108C19A9325600E3CAF2 /* CoreGraphics.framework in Frameworks */,
+				72BA108E19A9325600E3CAF2 /* UIKit.framework in Frameworks */,
+				72BA108A19A9325600E3CAF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72BA10A719A9325600E3CAF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BA10AC19A9325600E3CAF2 /* XCTest.framework in Frameworks */,
+				72BA10AE19A9325600E3CAF2 /* UIKit.framework in Frameworks */,
+				72BA10AD19A9325600E3CAF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7241500019A95BA200E16DD6 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				7241500119A95BA200E16DD6 /* MBProgressHUD.h */,
+				7241500219A95BA200E16DD6 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		7241500319A95BA200E16DD6 /* Accelerometer */ = {
+			isa = PBXGroup;
+			children = (
+				7241500419A95BA200E16DD6 /* AccelerometerFilter.h */,
+				7241500519A95BA200E16DD6 /* AccelerometerFilter.m */,
+				7241500619A95BA200E16DD6 /* APLGraphView.h */,
+				7241500719A95BA200E16DD6 /* APLGraphView.m */,
+			);
+			path = Accelerometer;
+			sourceTree = "<group>";
+		};
+		72BA107D19A9325600E3CAF2 = {
+			isa = PBXGroup;
+			children = (
+				72BA108F19A9325600E3CAF2 /* TeenyWear */,
+				72BA10B119A9325600E3CAF2 /* TeenyWearTests */,
+				7241500019A95BA200E16DD6 /* MBProgressHUD */,
+				7241500319A95BA200E16DD6 /* Accelerometer */,
+				72BA108819A9325600E3CAF2 /* Frameworks */,
+				72BA108719A9325600E3CAF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72BA108719A9325600E3CAF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72BA108619A9325600E3CAF2 /* TeenyWear.app */,
+				72BA10AA19A9325600E3CAF2 /* TeenyWearTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72BA108819A9325600E3CAF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72BA10C119A932D700E3CAF2 /* MetaWear.framework */,
+				72BA108919A9325600E3CAF2 /* Foundation.framework */,
+				72BA108B19A9325600E3CAF2 /* CoreGraphics.framework */,
+				72BA108D19A9325600E3CAF2 /* UIKit.framework */,
+				72BA10AB19A9325600E3CAF2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72BA108F19A9325600E3CAF2 /* TeenyWear */ = {
+			isa = PBXGroup;
+			children = (
+				72BA109819A9325600E3CAF2 /* AppDelegate.h */,
+				72BA109919A9325600E3CAF2 /* AppDelegate.m */,
+				72BA109B19A9325600E3CAF2 /* Main.storyboard */,
+				7241500B19A95CAA00E16DD6 /* StartViewController.h */,
+				7241500C19A95CAA00E16DD6 /* StartViewController.m */,
+				72414FFA19A95B3E00E16DD6 /* DeviceDetailViewController.h */,
+				72414FFB19A95B3E00E16DD6 /* DeviceDetailViewController.m */,
+				72414FFC19A95B3E00E16DD6 /* DevicesTableViewController.h */,
+				72414FFD19A95B3E00E16DD6 /* DevicesTableViewController.m */,
+				723D80BB19AA4E51006422A6 /* TheDevice.h */,
+				723D80BC19AA4E51006422A6 /* TheDevice.m */,
+				7241500E19A969CE00E16DD6 /* DrawingView.h */,
+				7241500F19A969CE00E16DD6 /* DrawingView.m */,
+				7241501119A969F000E16DD6 /* DrawingViewController.h */,
+				7241501219A969F000E16DD6 /* DrawingViewController.m */,
+				72BA10A419A9325600E3CAF2 /* Images.xcassets */,
+				72BA109019A9325600E3CAF2 /* Supporting Files */,
+			);
+			path = TeenyWear;
+			sourceTree = "<group>";
+		};
+		72BA109019A9325600E3CAF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72BA109119A9325600E3CAF2 /* TeenyWear-Info.plist */,
+				72BA109219A9325600E3CAF2 /* InfoPlist.strings */,
+				72BA109519A9325600E3CAF2 /* main.m */,
+				72BA109719A9325600E3CAF2 /* TeenyWear-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72BA10B119A9325600E3CAF2 /* TeenyWearTests */ = {
+			isa = PBXGroup;
+			children = (
+				72BA10B719A9325600E3CAF2 /* TeenyWearTests.m */,
+				72BA10B219A9325600E3CAF2 /* Supporting Files */,
+			);
+			path = TeenyWearTests;
+			sourceTree = "<group>";
+		};
+		72BA10B219A9325600E3CAF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72BA10B319A9325600E3CAF2 /* TeenyWearTests-Info.plist */,
+				72BA10B419A9325600E3CAF2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72BA108519A9325600E3CAF2 /* TeenyWear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72BA10BB19A9325600E3CAF2 /* Build configuration list for PBXNativeTarget "TeenyWear" */;
+			buildPhases = (
+				72BA108219A9325600E3CAF2 /* Sources */,
+				72BA108319A9325600E3CAF2 /* Frameworks */,
+				72BA108419A9325600E3CAF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeenyWear;
+			productName = TeenyWear;
+			productReference = 72BA108619A9325600E3CAF2 /* TeenyWear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72BA10A919A9325600E3CAF2 /* TeenyWearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72BA10BE19A9325600E3CAF2 /* Build configuration list for PBXNativeTarget "TeenyWearTests" */;
+			buildPhases = (
+				72BA10A619A9325600E3CAF2 /* Sources */,
+				72BA10A719A9325600E3CAF2 /* Frameworks */,
+				72BA10A819A9325600E3CAF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72BA10B019A9325600E3CAF2 /* PBXTargetDependency */,
+			);
+			name = TeenyWearTests;
+			productName = TeenyWearTests;
+			productReference = 72BA10AA19A9325600E3CAF2 /* TeenyWearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72BA107E19A9325600E3CAF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Martin Gregory";
+				TargetAttributes = {
+					72BA108519A9325600E3CAF2 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					72BA10A919A9325600E3CAF2 = {
+						TestTargetID = 72BA108519A9325600E3CAF2;
+					};
+				};
+			};
+			buildConfigurationList = 72BA108119A9325600E3CAF2 /* Build configuration list for PBXProject "TeenyWear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72BA107D19A9325600E3CAF2;
+			productRefGroup = 72BA108719A9325600E3CAF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72BA108519A9325600E3CAF2 /* TeenyWear */,
+				72BA10A919A9325600E3CAF2 /* TeenyWearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72BA108419A9325600E3CAF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BA10A519A9325600E3CAF2 /* Images.xcassets in Resources */,
+				72BA109419A9325600E3CAF2 /* InfoPlist.strings in Resources */,
+				72BA109D19A9325600E3CAF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72BA10A819A9325600E3CAF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BA10B619A9325600E3CAF2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72BA108219A9325600E3CAF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7241500919A95BA200E16DD6 /* AccelerometerFilter.m in Sources */,
+				7241501019A969CE00E16DD6 /* DrawingView.m in Sources */,
+				7241500A19A95BA200E16DD6 /* APLGraphView.m in Sources */,
+				72BA109A19A9325600E3CAF2 /* AppDelegate.m in Sources */,
+				7241501319A969F000E16DD6 /* DrawingViewController.m in Sources */,
+				72414FFE19A95B3E00E16DD6 /* DeviceDetailViewController.m in Sources */,
+				72BA109619A9325600E3CAF2 /* main.m in Sources */,
+				7241500D19A95CAA00E16DD6 /* StartViewController.m in Sources */,
+				72414FFF19A95B3E00E16DD6 /* DevicesTableViewController.m in Sources */,
+				7241500819A95BA200E16DD6 /* MBProgressHUD.m in Sources */,
+				723D80BD19AA4E51006422A6 /* TheDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72BA10A619A9325600E3CAF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BA10B819A9325600E3CAF2 /* TeenyWearTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72BA10B019A9325600E3CAF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72BA108519A9325600E3CAF2 /* TeenyWear */;
+			targetProxy = 72BA10AF19A9325600E3CAF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72BA109219A9325600E3CAF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72BA109319A9325600E3CAF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72BA109B19A9325600E3CAF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72BA109C19A9325600E3CAF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72BA10B419A9325600E3CAF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72BA10B519A9325600E3CAF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72BA10B919A9325600E3CAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72BA10BA19A9325600E3CAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72BA10BC19A9325600E3CAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeenyWear/TeenyWear-Prefix.pch";
+				INFOPLIST_FILE = "TeenyWear/TeenyWear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72BA10BD19A9325600E3CAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeenyWear/TeenyWear-Prefix.pch";
+				INFOPLIST_FILE = "TeenyWear/TeenyWear-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		72BA10BF19A9325600E3CAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TeenyWear.app/TeenyWear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeenyWear/TeenyWear-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TeenyWearTests/TeenyWearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		72BA10C019A9325600E3CAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TeenyWear.app/TeenyWear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TeenyWear/TeenyWear-Prefix.pch";
+				INFOPLIST_FILE = "TeenyWearTests/TeenyWearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72BA108119A9325600E3CAF2 /* Build configuration list for PBXProject "TeenyWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BA10B919A9325600E3CAF2 /* Debug */,
+				72BA10BA19A9325600E3CAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72BA10BB19A9325600E3CAF2 /* Build configuration list for PBXNativeTarget "TeenyWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BA10BC19A9325600E3CAF2 /* Debug */,
+				72BA10BD19A9325600E3CAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72BA10BE19A9325600E3CAF2 /* Build configuration list for PBXNativeTarget "TeenyWearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72BA10BF19A9325600E3CAF2 /* Debug */,
+				72BA10C019A9325600E3CAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72BA107E19A9325600E3CAF2 /* Project object */;
+}
